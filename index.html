@@ -25,7 +25,7 @@
                     <label for="nome">Nome completo:</label>
                 </th>
                 <td>
-                    <input type="text" id="nome" name="nome" required>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
             </td>
             </tr>
 
@@ -35,7 +35,7 @@
                     <label for="cpf">CPF:</label>
                 </th>
                 <td>
-                    <input type="text" id="cpf" name="cpf" required >
+                    <input type="text" id="cpf" name="cpf" minlength="11" placeholder="Digite seu cpf" required >
                 </td>
             </tr>
 
@@ -44,7 +44,7 @@
                     <label for="email">E-mail:</label>
                 </th>
                 <td>
-                    <input type="email" id="email" name="email" required >
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required >
                 </td>
             </tr>
 
@@ -54,7 +54,7 @@
                     <label for="telefone">Telefone:</label>
                 </th>
                 <td>
-                    <input type="tel" id="telefone" name="telefone" required >
+                    <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required >
                 </td>
             </tr>
 
@@ -74,12 +74,7 @@
                     <label for="cargo">Cargo:</label>
                 </th>
                 <td>
-                    <input
-                        type="text"
-                        id="cargo"
-                        name="cargo"
-                        required
-                    >
+                    <input type="text" id="cargo" name="cargo" placeholder="Digite seu cargo" required >
                 </td>
             </tr>
 
@@ -89,14 +84,7 @@
                     <label for="salario">Salário:</label>
                 </th>
                 <td>
-                    <input
-                        type="number"
-                        id="salario"
-                        name="salario"
-                        step="0.01"
-                        min="0"
-                        required
-                    >
+                    <input type="number" id="salario" name="salario"  step="0.01" min="0" placeholder="Digite seu salario" required >
                 </td>
             </tr>
 
@@ -122,30 +110,11 @@
             <tr>
                 <th>Turno:</th>
                 <td>
-
-                    <input
-                        type="radio"
-                        id="manha"
-                        name="turno"
-                        value="manha"
-                        required
-                    >
+                    <input type="radio" id="manha" name="turno" value="manha" required>
                     <label for="manha">Manhã</label>
-
-                    <input
-                        type="radio"
-                        id="tarde"
-                        name="turno"
-                        value="tarde"
-                    >
+                    <input type="radio" id="tarde" name="turno" value="tarde">
                     <label for="tarde">Tarde</label>
-
-                    <input
-                        type="radio"
-                        id="noite"
-                        name="turno"
-                        value="noite"
-                    >
+                    <input type="radio" id="noite" name="turno" value="noite" >
                     <label for="noite">Noite</label>
 
                 </td>
@@ -158,11 +127,7 @@
                 </th>
                 <td>
 
-                    <select
-                        id="contrato"
-                        name="contrato"
-                        required
-                    >
+                    <select id="contrato" name="contrato" required>
                         <option value="">Selecione</option>
                         <option value="clt">CLT</option>
                         <option value="pj">PJ</option>
@@ -178,45 +143,16 @@
             <tr>
                 <th>Conhecimentos / tecnologias:</th>
                 <td>
-
-                    <input
-                        type="checkbox"
-                        id="html"
-                        name="tecnologias"
-                        value="html"
-                    >
+                    <input type="checkbox" id="html" name="tecnologias" value="html">
                     <label for="html">HTML</label>
-
-                    <input
-                        type="checkbox"
-                        id="css"
-                        name="tecnologias"
-                        value="css"
-                    >
+                    <input type="checkbox" id="css" name="tecnologias" value="css">
                     <label for="css">CSS</label>
 
-                    <input
-                        type="checkbox"
-                        id="javascript"
-                        name="tecnologias"
-                        value="javascript"
-                    >
+                    <input type="checkbox" id="javascript" name="tecnologias" value="javascript">
                     <label for="javascript">JavaScript</label>
-
-                    <input
-                        type="checkbox"
-                        id="python"
-                        name="tecnologias"
-                        value="python"
-                    >
+                    <input type="checkbox" id="python" name="tecnologias" value="python">
                     <label for="python">Python</label>
-
-                    <input
-                        type="checkbox"
-                        id="java"
-                        name="tecnologias"
-                        value="java"
-                    >
+                    <input type="checkbox" id="java" name="tecnologias" value="java">
                     <label for="java">Java</label>
 
                 </td>
@@ -228,12 +164,7 @@
                     <label for="observacoes">Observações:</label>
                 </th>
                 <td>
-                    <textarea
-                        id="observacoes"
-                        name="observacoes"
-                        rows="5"
-                        cols="40"
-                    ></textarea>
+                    <textarea id="observacoes" name="observacoes" rows="5" cols="40"></textarea>
                 </td>
             </tr>
 
@@ -242,12 +173,7 @@
                 <th>Aceite dos termos:</th>
                 <td>
 
-                    <input
-                        type="checkbox"
-                        id="termos"
-                        name="termos"
-                        required
-                    >
+                    <input type="checkbox" id="termos" name="termos" required >
 
                     <label for="termos">
                         Aceito os termos e condições
